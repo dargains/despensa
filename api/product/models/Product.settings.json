@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "product",
   "info": {
     "name": "product",
     "description": ""
@@ -13,15 +13,18 @@
   "attributes": {
     "title": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "weHave": {
       "default": "",
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "weNeed": {
       "default": "",
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "comment": {
       "default": "",
